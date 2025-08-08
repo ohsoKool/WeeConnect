@@ -12,7 +12,7 @@ app.use(
   cors({
     credentials: false,
     allowedHeaders: true,
-    origin: process.env.ORIGIN_API_URL,
+    origin: process.env.VITE_API_URL,
   })
 );
 app.use(express.json());

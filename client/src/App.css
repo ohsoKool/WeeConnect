@@ -1,1 +1,62 @@
 /* Component-specific styles for the App component. */
+.form-container {
+  width: auto;
+  height: 100vh;
+  border: 2px solid #dccfc0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-container input {
+  font-size: medium;
+  border-radius: 8px;
+  /* margin: 6px; */
+  padding: 10px;
+  color: #a2af9b;
+}
+
+.file-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0px;
+}
+
+/* Custom styled button matching other inputs */
+.file-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: medium;
+  color: #333;
+}
+
+.file-btn:hover {
+  background-color: #eeeeee;
+}
+
+.file-name {
+  color: #a2af9b;
+  font-size: medium;
+}
+
+input:hover {
+  background-color: #e0e0e0;
+}
+
+#btn-submit-form {
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 6px;
+  background-color: #eeeeee;
+}
+
+#btn-submit-form:hover {
+  background-color: #cac8c8;
+}
